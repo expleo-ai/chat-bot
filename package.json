@@ -1,6 +1,8 @@
 {
   "name": "chat-bot",
   "version": "0.1.0",
+  "license": "MIT",
+  "author": "expleo-ai Team",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,17 +13,59 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "react-dropzone": "14.2.3",
+    "react-markdown": "9.0.1",
+    "remark-gfm": "4.0.0",
+    "next": "14.1.0",
+    "next-auth": "4.24.5",
+    "pdf-parse": "1.1.1",
+    "@headlessui/react": "1.7.18",
+    "@heroicons/react": "2.1.1",
+    "@microsoft/fetch-event-source": "2.0.1",
+    "@pinecone-database/pinecone": "2.0.1",
+    "@radix-ui/react-accordion": "1.1.2",
+    "@tailwindcss/forms": "0.5.7",
+    "clsx": "2.1.0",
+    "dotenv": "16.4.1",
+    "formidable": "3.5.1",
+    "heroicons": "2.1.1",
+    "langchain": "0.1.12",
+    "lodash": "4.17.21",
+    "lucide-react": "0.321.0",
+    "multiparty": "4.2.3",
+    "tailwind-merge": "2.2.1",
+    "uuidv4": "6.2.13"
   },
   "devDependencies": {
+    "@flydotio/dockerfile": "0.5.0",
     "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/formidable": "3.4.5",
+    "@types/lodash": "4.14.202",
+    "@types/multiparty": "0.0.36",
+    "@typescript-eslint/parser": "6.20.0",
     "autoprefixer": "^10.0.1",
     "postcss": "^8",
+    "prettier": "3.2.5",
+    "tsx": "4.7.0",
     "tailwindcss": "^3.3.0",
     "eslint": "^8",
     "eslint-config-next": "14.1.0"
-  }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "ai",
+    "openai",
+    "chatgpt",
+    "gpt-3.5",
+    "gpt4",
+    "pinecone",
+    "typescript",
+    "langchain",
+    "pdf"
+  ]
 }
